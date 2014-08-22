@@ -1,5 +1,5 @@
-var fs = require('fs');
-fs.appendFile("text.txt", "Hello world!\n", function(printing) {
+var fiprint = require('fs');
+fiprint.appendFile("text.txt", "Hello world!\n", function(printing) {
     if(printing) {
         console.log(printing);
     } else {
