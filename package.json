@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/enoshjustin/NodeAssignments",
   "dependencies": {
-    "node-fs": "^0.1.7"
+    "fsevents": "^0.3.0",
+    "node-eden": "0.0.3",
+    "node-fs": "^0.1.7",
+    "node-watch": "^0.3.4",
+    "random-words": "0.0.1"
   }
 }
