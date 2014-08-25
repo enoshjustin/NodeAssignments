@@ -1,6 +1,6 @@
 var rawords = require('random-words');
 var fiprint = require('fs');
-fiprint.appendFile("text1.txt",rawords(2)+'\n',function(printing)
+fiprint.appendFile("text1.txt",rawords()+'\n',function(printing)
  {
     if(printing) 
     {
